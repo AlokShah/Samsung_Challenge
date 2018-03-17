@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+<ImageView
+android:id="@+id/icon"
+android:layout_width="80dp"
+android:layout_height="80dp"
+android:contentDescription="Image"
+android:paddingLeft="10dp"
+android:paddingRight="10dp" />
+
+<TextView
+android:id="@+id/name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_toRightOf="@+id/icon"
+android:paddingBottom="10dp"
+android:textColor="#CC0033"
+android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/popularity_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/icon"
+        android:paddingLeft="10dp"
+        android:text="Popularity:"
+        android:textColor="#3399FF"
+        android:textSize="14dp" />
+
+<TextView
+android:id="@+id/popularity"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/name"
+android:layout_toRightOf="@+id/popularity_stub"
+android:paddingLeft="10dp"
+android:textColor="#3399FF"
+android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/genre_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popularitya"
+        android:layout_toRightOf="@+id/icon"
+        android:paddingLeft="10dp"
+        android:text="Genres:"
+        android:textColor="#3399FF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popularity"
+        android:layout_toRightOf="@+id/genre_stub"
+        android:paddingLeft="10dp"
+        android:textColor="#3399FF"
+        android:textSize="14dp" />
+
+    </RelativeLayout>
